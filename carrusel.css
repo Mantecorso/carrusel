@@ -16,11 +16,18 @@ body {
     flex-wrap: wrap;
 }
 
+.titulo {
+    position: absolute;
+    top: 50px;
+    left: 45%;
+}
+
 .carrusel {
     width: 80%;
     height: 300px;
     position: relative;
     background-color: rgb(22, 22, 77);
+    
 }
 
 .carrusel .izq, .carrusel .der {
