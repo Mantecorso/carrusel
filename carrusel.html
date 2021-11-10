@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="carrusel.css">
-    <script src="carrusel.js"></script>
+   
 </head>
 <body>
     <div class="titulo">
@@ -14,11 +14,26 @@
     </div>
     <div class="carrusel">
         <div class="carrusel-box">
-
+            <img src="./images/DSC_0688.JPG" alt="falla1" width="100%" class="image">
         </div>
-
-        <a href="" class="izq botonslider"><</a>
-        <a href="" class="der botonslider">></a>
+        <div class="carrusel-box">
+            <img src="./images/DSC_0698.JPG" alt="falla2" width="100%" class="image">
+        </div>
+        <div class="carrusel-box">
+            <img src="./images/DSC_0701.JPG" alt="falla3" width="100%" class="image">
+        </div>
+        <div class="carrusel-box">
+            <img src="./images/DSC_0703.JPG" alt="falla4" width="100%" class="image">
+        </div>
+        <p class="izq botonslider" id="prev" onclick="show_image(-1)"><</p>
+        <p class="der botonslider" id="next" onclick="show_image(1)">></p>
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
     </div>
+    <script src="carrusel.js"></script>
 </body>
 </html>
