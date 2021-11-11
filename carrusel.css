@@ -89,4 +89,8 @@ body {
     to { opacity: 1;}
 }
 
-
+@media (max-width:768px) {
+    .carrusel {
+        width: 100%;
+    }
+}
